@@ -25,6 +25,7 @@ def test_extract_state():
     assert extract_state("123 W Main, Rexburg, ID 83440") == "ID"
     assert extract_state("78 Pine St, Avon Park, FL 33825") == "FL"
 
+#lsasd
 
 def test_extract_zipcode():
     """Verify that the extract_zipcode
